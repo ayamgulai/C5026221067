@@ -46,3 +46,4 @@ Route::get('pag-bootstrap', function () {
 Route::get('counting-web', function () {
     return view('counting');
 });
+Route::get('biodata', 'App\Http\Controllers\DosenController@identity');
