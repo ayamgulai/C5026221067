@@ -22,6 +22,27 @@ Route::get('halo', function () {
 Route::get('halo2', function () {
     return "<h1>hallo semuah</h1>";
 });
-Route::get('halo3', function () {
-    return view('blog');
+Route::get('portofolio-example', function () {
+    return view('portex');
+});
+Route::get('ets-web', function () {
+    return view('ets-web');
+});
+Route::get('js-validation', function () {
+    return view('validation-js');
+});
+Route::get('basic-js', function () {
+    return view('basic-js');
+});
+Route::get('layout-web', function () {
+    return view('layout-task');
+});
+Route::get('exploring-css', function () {
+    return view('css-example');
+});
+Route::get('pag-bootstrap', function () {
+    return view('bootstrap-pagination');
+});
+Route::get('counting-web', function () {
+    return view('counting');
 });

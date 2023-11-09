@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/ets/icon/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <link rel="stylesheet" href="ets/style.css">
+    <title>Samuel Profile</title>
+  </head>
+
+  <body>
+    <nav
+      class="container-fluid navbar navbar-expand-lg navbar-light justify-content-between shadow-lg fixed-top bg-white py-0"
+    >
+      <div class="container">
+        <a class="navbar-brand text-black-50" href="#">
+          <img src="icon/logo.png" alt="" style="height: 50px; margin: 5px" />
+          Personal Profile
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-black-50" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black-50" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black-50" href="#experience"
+                >Experience</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black-50" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black-50" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="mt-auto" id="home">
+      <div class="container mt-5">
+        <h1 id="greet">WELCOME! <span class="h2">I'm</span></h1>
+        <h2 id="name">Samuel Hutagalung</h2>
+        <p>
+          Feedback plays a crucial role in my growth and development. I would greatly appreciate any insights or comments you may have. Your feedback is invaluable to me as it helps me understand areas where I can improve and enhance my skills further
+        </p>
+      </div>
+    </div>
+
+    <div class="mt-auto pt-5" id="about">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 col-md-6 d-block mx-auto">
+            <h1>about me</h1>
+            <p>
+              Undergraduate Student at ITS Surabaya <br>
+              Majoring Information Systems <br>
+              Get to know me better with my CV
+            </p>
+            <a
+              href="https://its.id/m/cvatssamuel"
+              target="_blank"
+              class="btn btn-primary"
+            >
+              <img
+                src="/ets/icon/download.png"
+                alt="download icon"
+                style="height: 16px; color: white"
+              />
+              Download my CV!
+            </a>
+          </div>
+          <div class="col-12 col-md-6 pt-5 pt-md-0 text-center d-block mx-auto">
+            <div class="w-100 align-self-end">
+              <div class="position-relative heroimg">
+                <img
+                  src="/ets/img/my-pic.png"
+                  alt="profile"
+                  class="profile-picture"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid pt-5" id="experience">
+      <div class="container py-5">
+        <h3>Experiences</h3>
+        <h4>
+          Some of my experiences that help me to grow my teamwork and
+          communication skills
+        </h4>
+
+        <div class="mt-5">
+          <h5>
+            Volunteer Staff of Futurest Business Case Competition Division
+          </h5>
+          <div class="img-exp">
+            <img src="/ets/img/fut1.jpg" alt="" />
+            <img src="/ets/img/fut2.jpg" alt="" />
+          </div>
+          <div class="desc">
+            Futurest is a summit that helds conferences and competition which is
+            a program from Society of Renewable Energy (SRE) ITS. One of those
+            competitions is a Business Case Competition.
+          </div>
+        </div>
+
+        <div class="mt-5">
+          <h5>Staff of User Experience Academy ICON Division ISE! 2023</h5>
+          <div class="img-exp">
+            <img src="/ets/img/ise1.jpg" alt="" />
+            <img src="/ets/img/ise2.jpg" alt="" />
+          </div>
+          <div class="desc">
+            Information Systems Expo (ISE!) is the annual event to give some
+            huge impact in information technology in order to promote
+            Information Systems Department ITS which is a program from
+            Information Systems Student Association (HMSI) ITS. One of thos
+            sub-events is IT-Convention UX Academy.
+          </div>
+        </div>
+
+        <div class="mt-5">
+          <h5>Mentor at SIMETRI</h5>
+          <div class="img-exp">
+            <img src="/ets/img/sim1.jpg" alt="" />
+            <img src="/ets/img/sim2.jpg" alt="" />
+          </div>
+          <div class="desc">
+            SIMETRI (Sistem Informasi Mengajar Teknologi Informasi) is an annual
+            event organized by the Department of Social Development at HMSI ITS.
+            Its primary goal is to provide social service through the mentorship
+            of high school students in Surabaya, helping them gain a
+            comprehensive understanding of web development.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-auto py-5" id="service">
+      <div
+        class="container pt-4 py-5 px-md-4 px-lg-5 pt-2 pb-2 pb-md-3 pb-lg-5"
+      >
+        <div class="row text-center my-5">
+          <h3>Services</h3>
+          <h4>Some services that we can use to our teamwork</h4>
+        </div>
+        <div id="carouselExampleControls" class="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card shadow" style="width: 23rem">
+                <div class="img-wrapper">
+                  <img src="/ets/img/webdev.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title">Web Development</h5>
+                  <p class="card-text">
+                    Build and maintain your landing page web and database.
+                  </p>
+                  <a href="#contact" class="btn btn-primary">Contact me!!</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card shadow" style="width: 23rem">
+                <div class="img-wrapper">
+                  <img src="/ets/img/socmed.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title">Social Media Marketing</h5>
+                  <p class="card-text">
+                    Helps you to make a great marketing with your social media.
+                  </p>
+                  <a href="#contact" class="btn btn-primary">Contact me!!</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card shadow" style="width: 23rem">
+                <div class="img-wrapper">
+                  <img src="/ets/img/teach.webp" class="d-block w-100" alt="..." />
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title">Teaching and Training</h5>
+                  <p class="card-text">
+                    Helps you to develop your human resource.
+                  </p>
+                  <a href="#contact" class="btn btn-primary">Contact me!!</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card shadow" style="width: 23rem">
+                <div class="img-wrapper">
+                  <img src="/ets/img/android.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title">Android Development</h5>
+                  <p class="card-text">
+                    Helps you to develop your android software.
+                  </p>
+                  <a href="#contact" class="btn btn-primary">Contact me!!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="contact">
+      <div class="mt-4">
+        <p class="text-center">Contact Me!</p>
+
+        <form>
+          <div class="form-group">
+            <label class="form-tulisan">Nama</label>
+            <input
+              type="text"
+              class="form-control"
+              id="Nama"
+              placeholder="Masukkan nama"
+            />
+            <p id="nama-error" class="pesanerror"></p>
+          </div>
+          <div class="form-group">
+            <label class="form-tulisan">Nomor telepon</label>
+            <input
+              type="text"
+              class="form-control"
+              id="Notelp"
+              placeholder="Masukkan nomor telepon"
+            />
+            <p id="notelp-error" class="pesanerror"></p>
+          </div>
+          <div class="form-group">
+            <label class="form-tulisan">Email</label>
+            <input
+              type="text"
+              class="form-control"
+              id="Email"
+              placeholder="Masukkan email"
+            />
+            <p id="email-error" class="pesanerror"></p>
+          </div>
+          <div class="form-group">
+            <label class="form-tulisan">Pesan</label>
+            <textarea
+              class="form-control"
+              style="padding-bottom: 2rem"
+              id="Pesan"
+              placeholder="Masukkan pesan"
+            ></textarea>
+            <p id="pesan-error" class="pesanerror"></p>
+          </div>
+          <button
+            type="button"
+            class="container btn-layanan"
+            style="margin-top: -0.01rem; float: right"
+            onclick="validateForm()"
+          >
+            Kirim
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer container-fluid mt-5">
+      <div class="py-5 container">
+        <h1>Department of Information Systems</h1>
+        <h2>ITS Surabaya</h2>
+        <h2>/ets Pemrograman Web kelas C</h2>
+      </div>
+    </div>
+    <script src="/ets/script.js"></script>
+  </body>
+</html>
