@@ -51,7 +51,7 @@ Route::get('blog2', function () {
     return view('blog');
 });
 Route::get('master', function () {
-    return view('master');
+    return view('master2');
 });
 Route::get('biodata', 'App\Http\Controllers\DosenController@identity');
 
@@ -71,6 +71,16 @@ Route::get('/blog/kontak',function (){
     return view('kontak');
 });
 
+
+
+Route::get('/pegawai','App\Http\Controllers\PegawaiController@index');
+Route::get('/pegawai/tambah','App\Http\Controllers\PegawaiController@tambah');
+Route::post('/pegawai/store','App\Http\Controllers\PegawaiController@store');
+Route::get('/pegawai/edit/{id}','App\Http\Controllers\PegawaiController@edit');
+Route::post('/pegawai/update','App\Http\Controllers\PegawaiController@update');
+Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus');
+
+Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 
 
 

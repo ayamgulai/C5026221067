@@ -25,6 +25,12 @@
         @yield('judul')
         <br>
         @yield('konten')
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <footer>
             <p>tabrak tabrak masuk</p>
         </footer>
