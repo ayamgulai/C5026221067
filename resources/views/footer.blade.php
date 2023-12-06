@@ -5,5 +5,5 @@
         <br>
         <br>
         <footer>
-            <p>Samuel 2023</p>
+            <p>&copy Samuel Hutagalung 2023</p>
         </footer>

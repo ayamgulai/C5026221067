@@ -5,7 +5,7 @@
 	<h2>www.malasngoding.com</h2>
 	<h3>Data Pegawai</h3>
 
-	<a class="btn btn-info" href="/pegawai/tambah"> + Tambah Pegawai Baru</a>
+	<a class="btn btn-primary" href="/pegawai/tambah"> + Tambah Pegawai Baru</a>
 
 	<br/>
 	<br/>
@@ -30,11 +30,13 @@
 			<td>{{ $p->pegawai_umur }}</td>
 			<td>{{ $p->pegawai_alamat }}</td>
 			<td>
-				<a class="btn btn-warning" href="/pegawai/edit/{{ $p->pegawai_id }}">Edit</a>
+                <a class="btn btn-success" href="/pegawai/view/{{ $p->pegawai_id }}">Lihat</a> |
+				<a class="btn btn-warning" href="/pegawai/edit/{{ $p->pegawai_id }}">Edit</a> |
 				<a class="btn btn-danger" href="/pegawai/hapus/{{ $p->pegawai_id }}">Hapus</a>
 			</td>
 		</tr>
 		@endforeach
 	</table>
+    {{$pegawai -> links()}}
     @endsection
 
