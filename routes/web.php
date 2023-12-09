@@ -93,4 +93,10 @@ Route::get('/keranjangbelanja/tambah','App\Http\Controllers\KeranjangController@
 Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
 Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangController@hapus');
 
-
+Route::get('/tas','App\Http\Controllers\TasController@index');
+Route::get('/tas/tambah','App\Http\Controllers\TasController@tambah');
+Route::post('/tas/store','App\Http\Controllers\TasController@store');
+Route::get('/tas/edit/{id}','App\Http\Controllers\TasController@edit');
+Route::post('/tas/update','App\Http\Controllers\TasController@update');
+Route::get('/tas/hapus/{id}','App\Http\Controllers\TasController@hapus');
+Route::get('/tas/view/{id}','App\Http\Controllers\TasController@view');

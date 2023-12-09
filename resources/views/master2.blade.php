@@ -31,8 +31,9 @@
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Database</a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="/pegawai">Pegawai</a></li>
-                  <li><a class="dropdown-item" href="/nilaikuliah">Nilai Kuliah</a></li>
-                  <li><a class="dropdown-item" href="/keranjangbelanja">Keranjang Belanja</a></li>
+                  <li><a class="dropdown-item" href="/nilaikuliah">Lat 1: Nilai Kuliah</a></li>
+                  <li><a class="dropdown-item" href="/keranjangbelanja">Lat 2: Keranjang Belanja</a></li>
+                  <li><a class="dropdown-item" href="/tas">Pra EAS: Tas</a></li>
                 </ul>
               </li>
             </ul>
