@@ -92,7 +92,7 @@ class TasController extends Controller
 
     		// mengambil data dari table tas sesuai pencarian data
 		$tas = DB::table('tas')
-		->where('mertktas','like',"%".$cari."%")
+		->where('merktas','like',"%".$cari."%")
 		->paginate(10);
 
     		// mengirim data tas ke view index

@@ -100,3 +100,4 @@ Route::get('/tas/edit/{id}','App\Http\Controllers\TasController@edit');
 Route::post('/tas/update','App\Http\Controllers\TasController@update');
 Route::get('/tas/hapus/{id}','App\Http\Controllers\TasController@hapus');
 Route::get('/tas/view/{id}','App\Http\Controllers\TasController@view');
+Route::get('/tas/cari','App\Http\Controllers\TasController@cari');
