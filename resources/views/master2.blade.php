@@ -34,6 +34,7 @@
                   <li><a class="dropdown-item" href="/nilaikuliah">Lat 1: Nilai Kuliah</a></li>
                   <li><a class="dropdown-item" href="/keranjangbelanja">Lat 2: Keranjang Belanja</a></li>
                   <li><a class="dropdown-item" href="/tas">Pra EAS: Tas</a></li>
+                  <li><a class="dropdown-item" href="/mahasiswa">EAS: Mahasiswa</a></li>
                 </ul>
               </li>
             </ul>

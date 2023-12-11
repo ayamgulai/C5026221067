@@ -101,3 +101,9 @@ Route::post('/tas/update','App\Http\Controllers\TasController@update');
 Route::get('/tas/hapus/{id}','App\Http\Controllers\TasController@hapus');
 Route::get('/tas/view/{id}','App\Http\Controllers\TasController@view');
 Route::get('/tas/cari','App\Http\Controllers\TasController@cari');
+
+Route::get('/mahasiswa','App\Http\Controllers\MahasiswaController@index');
+Route::post('/mahasiswa/update','App\Http\Controllers\MahasiswaController@update');
+Route::post('/mahasiswa/store','App\Http\Controllers\MahasiswaController@store');
+Route::get('/mahasiswa/view/{id}','App\Http\Controllers\MahasiswaController@view');
+Route::get('/mahasiswa/edit/{id}','App\Http\Controllers\MahasiswaController@edit');
